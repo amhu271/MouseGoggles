@@ -118,7 +118,8 @@ After the glass has been scored, flip the MirrorStencil parts inside out and san
 1. Connect each camera ribbon cable to a CSI extender, then to the 15-pin side of a 22-15 pin ribbon cable. Connect the left eye camera to the cam/disp 0 connector of the Pi 5, and the right eye camera to cam/disp 1.
 
 2. Connect the four LEDs in series. The anode pin (+) of each LED is the longer leg. The cathode pin (-) is the shorter leg.
-  * shorthand: TL: top left, BL: bottom left, TR: top right, BR: bottom right
+ * shorthand: TL: top left, BL: bottom left, TR: top right, BR: bottom right
+  
 Starting from the TL LED, connect the + (long leg) to a jumper wire to the 5V pin on the Raspberry Pi 5 (i.e pin 2). Connect the TL - (short leg) to the + on the BL LED by a jumper wire. Then, connect the BL - to the BR + by a jumper wire. Then the BR - to TR +. Finally, connect the TR - to a ground pin on the Raspberry Pi 5 (i.e pin 39)
 
    | LED pin                   | Connection  |
@@ -147,6 +148,16 @@ Starting from the TL LED, connect the + (long leg) to a jumper wire to the 5V pi
 | Display 2 - TFTCS | pin 12 (GPIO 18, PCM_CLK)  |
 | Display 2 - RST   | pin 37 (GPIO 26)           |
 | Display 2 - DC    | pin 36 (GPIO 16)           |
+
+</td>
+
+<td valign="top">
+
+<img src="Versions/EyeTrack/2.0/Images/E2_Wiring.png" width="450">
+
+</td>
+</tr>
+</table>
 
 * Note: to make the electrical wiring more secure, consider these options: Trim the length of the LED and resistor pins with wire cutters to reduce the amount of exposed wire; Cover exposed wire with electrical tape; Secure female/male connections with electrical tape or silicone adhesive; Solder wire connections together and cover with shrink tubing for the most secure connections.
 
