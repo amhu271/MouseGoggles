@@ -80,31 +80,36 @@ For strong, long-lasting parts, an FDM-based printer using PLA is a good choice,
 
 ![Select steps of MouseGoggles EyeTrack 2.0 assembly](https://github.com/sn-lab/MouseGoggles/blob/main/Versions/EyeTrack/2.0/Images/E2_Assembly.png)
 
-1. Separate a group of 7 jumper wires from the bundle. Cut the sockets off of one end of the wires and strip the cut end of the wire. Solder the 7 exposed wires into the back of a circular display to the following pins: 3Vo, Gnd, SCK, MOSI, TFTCS, RST, DC. (it is not necessary to connect Vin, MISO, SDCS, Lite). Repeat with a 2nd display.
+1. Separate a group of 7 jumper wires from the bundle. Cut the sockets off of one end of the wires and strip the cut end of the wire. Solder the 7 exposed wires into the back of a circular display to the following pins: 3Vo, Gnd, SCK, MOSI, TFTCS, RST, DC. (it is not necessary to connect Vin, MISO, SDCS, Lite). Repeat with a 2nd display. Thread the wires through the holes on the display before soldering to prevent wires from breaking
 
 2. Cover the soldered pins and base of the wires with silicone glue, to give extra support to the junction and prevent wires breaking when bent. (the glue may take up to 24 hours to fully cure)
 
-3. Insert a hot mirror into the MirrorStencilBase, and set the MirrorStencil on top. Holding the mirror and stencil stable with one hand, gently scratch the mirror using the glass scribe along the 3 lines in the stencil, going over each line multiple times. After the glass has been scored, flip the MirrorStencil parts inside out and sandwich the mirror in between the two flat surfaces of the part, so that the mirror is sticking halfway out and the score line follows the straight edge of the MirrorStencil as closely as possible. Clamping the mirror between the stencil, gently press the exposed half of the mirror to snap the mirror along the central score line. Then, for each half of the mirror, expose the other sections and break along the smaller score lines to finish roughly shaping the mirror (these smaller score lines to not need to bread as cleanly since they will be largely out of the mouse's view). Slide each mirror all the way into the mirror slot of the eyepieces to check the fit - ideally it should roughly follow the shape of the eyepiece without extruding too much.
+3. Insert a hot mirror into the MirrorStencilBase, and set the MirrorStencil on top. Holding the mirror and stencil stable with one hand, gently scratch the mirror using the glass scribe along the 3 lines in the stencil, going over each line multiple times. You can remove the stencil once an outline is made, and continue scratching. 
+After the glass has been scored, flip the MirrorStencil parts inside out and sandwich the mirror in between the two flat surfaces of the part, so that the mirror is sticking halfway out and the score line follows the straight edge of the MirrorStencil as closely as possible. Clamping the mirror between the stencil, gently press the exposed half of the mirror to snap the mirror along the central score line. Then, for each half of the mirror, expose the other sections and break along the smaller score lines to finish roughly shaping the mirror (these smaller score lines to not need to bread as cleanly since they will be largely out of the mouse's view). Slide each mirror all the way into the mirror slot of the eyepieces to check the fit - ideally it should roughly follow the shape of the eyepiece without extruding too much.
    
    * Tips: Adding a drop of liquid to the score line can help ensure that the glass snaps along the line. To chip away smaller pieces of glass, you can use the metal back end of the scribe to press and break the glass edge. This broken edge does not need to be a clean edge since it is not visible inside the eyepiece. Instead of/in addition to a glass scribe, a dremel tool with diamond grinding tip can be an easy way to shape the cut end of the glass.
 
-4. Insert a camera into the camera port, with the ribbon cable oriented in the direction opposite of the eyepiece front. 
+4. Insert the hot mirror into the slot, where the rough edge is sticking out. Glue the hot mirror to the Eyepiece with loctite. Be careful not to damage the inner edge or center of the mirror. 
+    * Tips: Excess loctite can be removed with acetone.
 
-5. Insert an IR LED into one of the two circular LED ports next to the camera port.
+5. Insert a camera into the camera port, with the ribbon cable oriented in the direction opposite of the eyepiece front. Then, insert two 1/2" screws through the holes behind the led slots.
+
+6. Insert 2 IR LEDs into the two circular LED ports next to the camera port.
    
-   * Note: If any part is too difficult to slide into place, use a needle file to sand down any warped areas or imperfections of the 3D prints.
+   * Tips: If any part is too difficult to slide into place, use a needle file to sand down any warped areas or imperfections of the 3D prints.
 
-6. Slide a CameraClip part into the eyepiece, roughly securing the camera and LED in place. For extra security, add dabs of adhesive to fix the clip to the eyepiece
+7. Slide a CameraClip part into the eyepiece, roughly securing the camera and LED in place. For extra security, add dabs of adhesive to fix the clip to the eyepiece
 
-7. Stack the circular display on top of the eyepiece, with the display screw-holes aligned to the screw holes on the side of the eyepiece opposite of the camera port.
+8. Stack the circular display on top of the eyepiece, with the display screw-holes aligned to the screw holes on the side of the eyepiece opposite of the camera port.
 
-8. Stack the EyepieceBack onto the display/eyepiece, with all four open screw holes aligned to the four screw holes of the eyepiece, and with the camera ribbon cable sitting between the EyepieceBack and the display so that it is protected, secured, and lines up with the soldered jumper wires. From the eyepiece-side, Insert four 1/2" screws through the holes, but don't secure them with nuts yet.
+9. Stack the EyepieceBack onto the display/eyepiece, with all four open screw holes aligned to the four screw holes of the eyepiece, and with the camera ribbon cable sitting between the EyepieceBack and the display so that it is protected, secured, and lines up with the soldered jumper wires. From the eyepiece-side, Insert two 1/2" screws through the holes, but don't secure them with nuts yet.
 
-9. Repeat steps 4-8 with a second eyepiece.
+10. Repeat steps 4-8 with a second eyepiece.
 
-10. (for horizontally-mounted eyepieces) Position the two eyepieces onto the bracket so that 3 of the 4 screws of each eyepiece extend through the inner bracket slots. Then add nuts to all four screws to secure the eyepiece together and to the bracket.
+11. (for horizontally-mounted eyepieces) Position the two eyepieces onto the bracket so that 3 of the 4 screws of each eyepiece extend through the inner bracket slots. Then add nuts to all four screws to secure the eyepiece together and to the bracket.
 
-11. Insert a Fresnel lens into each slot on the front of the eyepieces, with the ridged side of the lens facing into the eyepiece and the smooth side facing out of the eyepiece (very gently sliding your finger or fingernail along each flat face of the lens will tell you which side is smooth and which side is ridged). Attach a LensClip to each eyepiece to hold the lens in place. (the thicker end of the LensClip should be oriented so that it will sit above the mouse's eye, not below it.
+12. Insert a Fresnel lens into each slot on the front of the eyepieces, with the ridged side of the lens facing into the eyepiece and the smooth side facing out of the eyepiece (very gently sliding your finger or fingernail along each flat face of the lens will tell you which side is smooth and which side is ridged). Attach a LensClip to each eyepiece to hold the lens in place. (the thicker end of the LensClip should be oriented so that it will sit above the mouse's eye, not below it.)
+    * Tips: These can also be cleaned with acetone or ethanol.
 
 ### Wire up the displays, cameras, and LEDs
 
@@ -112,14 +117,17 @@ For strong, long-lasting parts, an FDM-based printer using PLA is a good choice,
 
 1. Connect each camera ribbon cable to a CSI extender, then to the 15-pin side of a 22-15 pin ribbon cable. Connect the left eye camera to the cam/disp 0 connector of the Pi 5, and the right eye camera to cam/disp 1.
 
-2. Connect the anode pin of each LED (the longer of the two) to it's own jumper wire, then connect a resistor to the other end of each jumper wire. Connect each resistor to a ground pin on the Raspberry Pi 5 header, and the cathode pin of each LED (the shorter of the two) to a 5V pin on the Raspberry Pi 5 header, following the map below (refer to Pi 5 pin names in the image above):
-   
-   | LED pin                   | Raspberry Pi 5 pin |
+2. Connect the four LEDs in series. The anode pin (+) of each LED is the longer leg. The cathode pin (-) is the shorter leg.
+  * shorthand: TL: top left, BL: bottom left, TR: top right, BR: bottom right
+Starting from the TL LED, connect the + (long leg) to a jumper wire to the 5V pin on the Raspberry Pi 5 (i.e pin 2). Connect the TL - (short leg) to the + on the BL LED by a jumper wire. Then, connect the BL - to the BR + by a jumper wire. Then the BR - to TR +. Finally, connect the TR - to a ground pin on the Raspberry Pi 5 (i.e pin 39)
+
+   | LED pin                   | Connection  |
    | ------------------------- | ------------------ |
-   | LED 1 - long pin/resistor | pin 14 (Ground)    |
-   | LED 1 - short pin         | pin 2 (5V power)   |
-   | LED 2 - long pin/resistor | pin 20 (Ground)    |
-   | LED 2 - short pin         | pin 4 (5V power)   |
+   | LED TL - long pin         | pin 2 (5V power) Raspberry Pi 5  |
+   | LED TL - short pin        | LED BL- long pin   |
+   | LED BL - short pin        | LED BR - long pin  |
+   | LED BR - short pin        | LED TR - long pin  |
+   | LED TR - short pin        | pin 39 (Ground)  Raspberry Pi 5  |
 
 3. Connect the jumper wires of the left eye (display 1) and right eye (display 2) displays to the header pins of the Raspberry Pi 5 following the map below (refer to Pi 5 pin names in the image above):
 
@@ -152,21 +160,24 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 ### Install the Raspberry Pi 5 Operating System
 
-- Insert a blank micro SD card into your PC
+- Insert a blank micro SD card into your PC or laptop
 - Download and install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - Choose Device: "Raspiberry Pi 5""
 - Choose OS: "Raspberry Pi OS (64-bit)"
 - Choose Storage: -select your SD card-
 - When asked if you would like to apply custom OS settings, click "Edit Settings"
-- Set the hostname, username, password, WiFi, and localisation settings as desired, then click save and exit the settings window (where applicable in the following instructions, the hostname will be assumed to be "MG2")
+- Set the hostname, username, password, WiFi, and localisation settings as desired, then click save and exit the settings window (where applicable in the following instructions, the hostname will be assumed to be "MG2") ** remember your password, you will need it each time you use a sudo command.
 - Select "write" to install the OS with your custom settings
+    * If there is a windows pop up to reformat the disk, ignore it. 
 - After the image has finished writing, Insert the SD card into your Raspberry Pi and power it on
+
+![(Left) Initial Setting Raspberry Pi Imager. (right) Custom OS settings](https://github.com/sn-lab/MouseGoggles/blob/main/Versions/EyeTrack/2.0/Images/raspberrypi_imager.svg)
 
 ### Download the MouseGoggles repository
 
 - Start the Raspberry Pi and connect to the internet.
   
-  - to connect to a wireless internet network, you may first be asked to set your wireless LAN country
+  - set up user/pass, connect to wifi, set up WLAN country, then select your browser, hit next, and launch desktop
 
 - Open up the Raspberry Pi command terminal and enter each line, one at a time:
   
@@ -191,26 +202,26 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - In a separate window (leave the command terminal open), open the file located in:`MouseGoggles/Versions/EyeTrack/2.0/Install/configtxt.txt`.
 
-- Copy the entire configtxt contents into the bottom of the config file (just below the `[all]`section).
+- Copy the entire configtxt contents into the bottom of the config file (just below the `[all]`section). After editing the config file, use Ctrl + o to write out. Hit enter. Open a new terminal to restart the PC
 
-- Restart the PC.
+- Restart the PC. (to restart, use sudo reboot)
 
 - When the computer reboots, right-click on the desktop and select `Desktop Preferences`.
 
 - Scroll down the menu on the left to select the `Screens` tab.
 
-- Drag the screens so that the SPI-1 screen is on the top-left corner and the SPI-2 screen is just to the right of SPI-1 (the screens should snap so that they are linked on their edges). If there is an HDMI screen, drag that so it is also aligned to the top-left corner, sitting underneath both SPI screens.
+- Drag the screens so that the SPI-1 screen is on the top-left corner and the SPI-2 screen is just to the right of SPI-1 (the screens should snap so that they are linked on their edges). Drag the HDMI screen such that it is also aligned on the top left of the screen. 
 
 - If you have mounted the eyepieces on the bracket vertically (i.e. with the jumper wires extending upwards above the bracket), you can skip the next line.
 
 - If you have mounted the eyepieces on the bracket horizontally (i.e. with the jumper wires extending towards the center of the bracket), right-click on the SPI-1 screen and set "Orientation" to "Right", then right-click on the SPI-2 screen and set "Orientation" to "Left".
 
-- Apply and click "ok" to accept the changes.
+- Apply and click "ok" to accept the changes. It may ask to enter password to close out of Desktop Preferences.
 
 ### Calibrate the cameras
 
 - Navigate to the "pi5cam.py" file in the MouseGoggles/Versions/EyeTrack/2.0/Python folder. Double-click this file to open and view it with a code editor (you may need to drag and resize the window to see the full editor). At the top of the script, find the "Configuration" section --this is where settings can be edited to improve the quality of eye tracking imaging. 
-- Check that the "base_log_dir" variable is pointing at the correct location of your Godot logs folder (you will likely need to change "mg2" to the username you've chosen for this installation.
+- Check that the "base_log_dir" variable is pointing at the correct location of your Godot logs folder (you will likely need to change "mg2" to the username you've chosen for this installation.)
 - Click the "run" (arrow) button at the top of the window to check the live view of the cameras. Click "q" on your keyboard to stop the cameras when you are done.
 - Set the "CROP_ENABLED" variable to "True" to enable a cropped/zoomed view of the pupils. You may need to change the width, height, x, and y variables of each camera so that both eyes are centered in the cropped region. Click the run button again to check your settings. 
 - Keep adjusting the configuration and checking the cameras until you are satisfied with the quality and view of the eye tracking imaging. Once the configuration is final, copy the entire "Configuration" section and paste it in the "pi5cam_udp.py script" to replace the default configuration. This UDP script is what is used by the Godot game engine to view and record the eyes during VR experiments
@@ -223,7 +234,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Navigate to the "pi5cam_udp.py" file in the MouseGoggles/Versions/EyeTrack/2.0/Python folder. Double-click this file to open and view it with a code editor. Click the "run" (arrow) button at the top of the window to start the camera controller. A command window will open and display messages about this controller: once you see "UDP server started", you can move on to the next step. **Feel free to move this file to the desktop to make it easier to start experiments**
 
-- Navigate to the "godot_3.5.2-stable_rpi4_editor.arm64" file in the MouseGoggles/Godot folder. Double-click this file and select "Execute". **Feel free to move this file to the desktop to make it easier to start experiments**
+- Navigate to the "godot_3.5.2-stable_rpi4_editor.arm64" file in the MouseGoggles/Godot folder. Right click on the file and select properties. Navigate to permissions and change execute to anybody. Double-click this file and select "Execute" or "Execute in terminal. 
+**Feel free to move this file to the desktop to make it easier to start experiments**
 
 - Import the Godot game project located in MouseGoggles/Godot/MouseVR Godot Project V2.2/project.godot
 
