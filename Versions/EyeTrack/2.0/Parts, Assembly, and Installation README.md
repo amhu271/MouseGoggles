@@ -171,7 +171,7 @@ To install all necessary software, you'll first need a PC to install the Raspber
     * If there is a windows pop up to reformat the disk, ignore it. 
 - After the image has finished writing, Insert the SD card into your Raspberry Pi and power it on
 
-![(Left) Initial Setting Raspberry Pi Imager. (right) Custom OS settings](https://github.com/amhu271/MouseGoggles/blob/main/Versions/EyeTrack/2.0/Images/raspberrypi_imager.svg)
+![(Left) Initial Setting Raspberry Pi Imager. (right) Custom OS settings](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/raspberrypi_imager.svg)
 
 ### Download the MouseGoggles repository
 
