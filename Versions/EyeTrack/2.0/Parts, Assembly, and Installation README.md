@@ -224,13 +224,19 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Apply and click "ok" to accept the changes. It may ask to enter password to close out of Desktop Preferences.
 
+![Desktop Preferences >Screens](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/screens.png)
+
 ### Calibrate the cameras
 
 - Navigate to the "pi5cam.py" file in the MouseGoggles/Versions/EyeTrack/2.0/Python folder. Double-click this file to open and view it with a code editor (you may need to drag and resize the window to see the full editor). At the top of the script, find the "Configuration" section --this is where settings can be edited to improve the quality of eye tracking imaging. 
 - Check that the "base_log_dir" variable is pointing at the correct location of your Godot logs folder (you will likely need to change "mg2" to the username you've chosen for this installation.)
+
+![base_log_dir edits](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/base_log_dir.png)
+
 - Click the "run" (arrow) button at the top of the window to check the live view of the cameras. Click "q" on your keyboard to stop the cameras when you are done.
 - Set the "CROP_ENABLED" variable to "True" to enable a cropped/zoomed view of the pupils. You may need to change the width, height, x, and y variables of each camera so that both eyes are centered in the cropped region. Click the run button again to check your settings. 
 - Keep adjusting the configuration and checking the cameras until you are satisfied with the quality and view of the eye tracking imaging. Once the configuration is final, copy the entire "Configuration" section and paste it in the "pi5cam_udp.py script" to replace the default configuration. This UDP script is what is used by the Godot game engine to view and record the eyes during VR experiments
+
 
 # Operating Instructions
 
@@ -242,6 +248,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Navigate to the "godot_3.5.2-stable_rpi4_editor.arm64" file in the MouseGoggles/Godot folder. Right click on the file and select properties. Navigate to permissions and change execute to anybody. Double-click this file and select "Execute" or "Execute in terminal. 
 **Feel free to move this file to the desktop to make it easier to start experiments**
+
+![permissions](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/permissions.png)
 
 - Import the Godot game project located in MouseGoggles/Godot/MouseVR Godot Project V2.2/project.godot
 
