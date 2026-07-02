@@ -92,23 +92,25 @@ After the glass has been scored, flip the MirrorStencil parts inside out and san
 4. Insert the hot mirror into the slot, where the rough edge is sticking out. Glue the hot mirror to the Eyepiece with loctite. Be careful not to damage the inner edge or center of the mirror. 
     * Tips: Excess loctite can be removed with acetone.
 
-5. Insert a camera into the camera port, with the ribbon cable oriented in the direction opposite of the eyepiece front. Then, insert two 1/2" screws through the holes behind the led slots.
+5. Remove the glue off of the cameras with flush cutters or forceps. Turning the lense will allow the focus to be adjusted later. Try to remove enough such that is fairly easy to turn the lense. About 6-7 quarter turns counterclock wise should have the eye in focus.
 
-6. Insert 2 IR LEDs into the two circular LED ports next to the camera port.
+6. Insert a camera into the camera port, with the ribbon cable oriented in the direction opposite of the eyepiece front. Then, insert two 1/2" screws through the holes behind the led slots.
+
+7. Insert 2 IR LEDs into the two circular LED ports next to the camera port.
    
    * Tips: If any part is too difficult to slide into place, use a needle file to sand down any warped areas or imperfections of the 3D prints.
 
-7. Slide a CameraClip part into the eyepiece, roughly securing the camera and LED in place. For extra security, add dabs of adhesive to fix the clip to the eyepiece
+8. Slide a CameraClip part into the eyepiece, roughly securing the camera and LED in place. For extra security, add dabs of adhesive to fix the clip to the eyepiece
 
-8. Stack the circular display on top of the eyepiece, with the display screw-holes aligned to the screw holes on the side of the eyepiece opposite of the camera port.
+9. Stack the circular display on top of the eyepiece, with the display screw-holes aligned to the screw holes on the side of the eyepiece opposite of the camera port.
 
-9. Stack the EyepieceBack onto the display/eyepiece, with all four open screw holes aligned to the four screw holes of the eyepiece, and with the camera ribbon cable sitting between the EyepieceBack and the display so that it is protected, secured, and lines up with the soldered jumper wires. From the eyepiece-side, Insert two 1/2" screws through the holes, but don't secure them with nuts yet.
+10. Stack the EyepieceBack onto the display/eyepiece, with all four open screw holes aligned to the four screw holes of the eyepiece, and with the camera ribbon cable sitting between the EyepieceBack and the display so that it is protected, secured, and lines up with the soldered jumper wires. From the eyepiece-side, Insert two 1/2" screws through the holes, but don't secure them with nuts yet.
 
-10. Repeat steps 4-8 with a second eyepiece.
+11. Repeat steps 4-8 with a second eyepiece.
 
-11. (for horizontally-mounted eyepieces) Position the two eyepieces onto the bracket so that 3 of the 4 screws of each eyepiece extend through the inner bracket slots. Then add nuts to all four screws to secure the eyepiece together and to the bracket.
+12. (for horizontally-mounted eyepieces) Position the two eyepieces onto the bracket so that 3 of the 4 screws of each eyepiece extend through the inner bracket slots. Then add nuts to all four screws to secure the eyepiece together and to the bracket.
 
-12. Insert a Fresnel lens into each slot on the front of the eyepieces, with the ridged side of the lens facing into the eyepiece and the smooth side facing out of the eyepiece (very gently sliding your finger or fingernail along each flat face of the lens will tell you which side is smooth and which side is ridged). Attach a LensClip to each eyepiece to hold the lens in place. (the thicker end of the LensClip should be oriented so that it will sit above the mouse's eye, not below it.)
+13. Insert a Fresnel lens into each slot on the front of the eyepieces, with the ridged side of the lens facing into the eyepiece and the smooth side facing out of the eyepiece (very gently sliding your finger or fingernail along each flat face of the lens will tell you which side is smooth and which side is ridged). Attach a LensClip to each eyepiece to hold the lens in place. (the thicker end of the LensClip should be oriented so that it will sit above the mouse's eye, not below it.)
     * Tips: These can also be cleaned with acetone or ethanol.
 
 ### Wire up the displays, cameras, and LEDs
@@ -208,7 +210,7 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Copy the entire configtxt contents into the bottom of the config file (just below the `[all]`section). After editing the config file, use Ctrl + o to write out. Hit enter. Open a new terminal to restart the PC
 
-![editing the config file](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/config.svg)
+![Editing the config file](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/config.svg)
 
 - Restart the PC. (to restart, use sudo reboot)
 
@@ -224,7 +226,7 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Apply and click "ok" to accept the changes. It may ask to enter password to close out of Desktop Preferences.
 
-![Desktop Preferences >Screens](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/screens.png)
+![Desktop Preferences > Screens](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/screens.png)
 
 ### Calibrate the cameras
 
@@ -275,6 +277,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
   ```
 - Click on `Interface Options`, then `VNC`, and click `enable`. Save and exit the raspi-config window
 
+![vnc enable](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/vnc.svg)
+
 - Open up another Raspberry Pi command terminal and enter the following line:
   
   ```
@@ -282,5 +286,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
   ```
 
 - Scroll down and look for the `inet` field. Find the number to the right and write it down for later (e.g. `10.192.168.1`)
+
+![example inet](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/inet.png)
+
 
 - On the PC from which you'd like to control the MouseGoggles system (and which is connected to the same network as the Raspberry Pi), download [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/). From the search bar, enter the Raspberry Pi's `inet` number. When prompted for a username and password, enter the information you set during the Raspberry Pi OS installation
