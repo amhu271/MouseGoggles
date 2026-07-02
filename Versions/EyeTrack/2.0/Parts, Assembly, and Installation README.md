@@ -149,15 +149,6 @@ Starting from the TL LED, connect the + (long leg) to a jumper wire to the 5V pi
 | Display 2 - RST   | pin 37 (GPIO 26)           |
 | Display 2 - DC    | pin 36 (GPIO 16)           |
 
-</td>
-
-<td valign="top">
-
-<img src="Versions/EyeTrack/2.0/Images/E2_Wiring.png" width="450">
-
-</td>
-</tr>
-</table>
 
 * Note: to make the electrical wiring more secure, consider these options: Trim the length of the LED and resistor pins with wire cutters to reduce the amount of exposed wire; Cover exposed wire with electrical tape; Secure female/male connections with electrical tape or silicone adhesive; Solder wire connections together and cover with shrink tubing for the most secure connections.
 
@@ -202,6 +193,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
 
 - Note: If you are asked if you want to continue installing, answer yes.
 
+![Installing python3-opencv](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/installpython3-opencv.png)
+
 ### Set up the displays
 
 - Open up the Raspberry Pi command terminal enter each line, one at a time, to copy the display driver and to edit the Raspberry Pi configuration file: (scroll to see the full line).
@@ -214,6 +207,8 @@ To install all necessary software, you'll first need a PC to install the Raspber
 - In a separate window (leave the command terminal open), open the file located in:`MouseGoggles/Versions/EyeTrack/2.0/Install/configtxt.txt`.
 
 - Copy the entire configtxt contents into the bottom of the config file (just below the `[all]`section). After editing the config file, use Ctrl + o to write out. Hit enter. Open a new terminal to restart the PC
+
+![editing the config file](https://github.com/amhu271/MouseGoggles/blob/edit/Versions/EyeTrack/2.0/Images/config.svg)
 
 - Restart the PC. (to restart, use sudo reboot)
 
